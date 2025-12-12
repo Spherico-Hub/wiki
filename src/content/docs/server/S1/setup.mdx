@@ -1,0 +1,53 @@
+---
+title: Spherico MC Modpack setup
+description: Setup information
+sidebar:
+  order: 0
+---
+import { Aside } from '@astrojs/starlight/components';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+# Prerequisites
+We assume, from this point onwards, that you are aware that you are going to be playing modded Minecraft. You will need to have Java isntalled. 
+You can use the default Minecraft launcher, but Prism launcher is so, so, so much better. 
+
+<Tabs>
+  <TabItem label="Windows">
+  From your terminal, enter: `winget install prismlauncher` or `winget install prismlauncher.prismlauncher`. 
+  Otherwise get it from the [official source](https://prismlauncher.org/download/windows/).
+  </TabItem>
+
+  <TabItem label="macOS">
+  Get it from the [offical source](https://prismlauncher.org/download/mac/). 
+  </TabItem>
+
+  <TabItem label="Linux">
+  It's on Flathub.
+  If you hate yourself, you can also get the [.appimage](https://prismlauncher.org/download/). This will not work on the [greatest invention known to mankind.](https://store.steampowered.com/steamdeck).
+
+    *Did you really think that I was going to hold your hand for this? You're on Linux.*
+  </TabItem>
+</Tabs>
+
+# Installing the modpack
+<Tabs>
+  <TabItem label="Recommended method"
+  In Prism Launcher, **create** a new instance, **import** a custom modpack and **input** the following URL: `if you're not seeing a URL here, fallback to the manual method.`
+  </TabItem>
+
+  <TabItem label="Manual method">
+  1. Download the modpack through [direct download], [Google Drive](https://drive.google.com/file/d/1APp7RfnRAeoTToouxtOlmX89DDUpjeAh/view?usp=sharing) or [from source]. 
+  2. Extract the contents of the modpack anywhere. 
+  3. In Prism Launcher, **create** a new instance, **import** a custom modpack and **select** the file you have downloaded.
+  </TabItem>
+</Tabs>
+
+## Updating the modpack
+1. Download the newest version of the Modpack and unzip it.
+2. On Prism Launcher, edit the instance where the modpack resides.
+3. Go to the "Modrinth" tab and click "Update from file"
+4. Find and select the .mrpack file from the package you downloaded.
+
+# Connect to the server
+The server should be conveniently be in your multiplayer menu already! 
+Otherwise just enter `mc.spherico.one` in the new server window. 
