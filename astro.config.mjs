@@ -34,10 +34,9 @@ export default defineConfig({
 		    label: '[home] Home',
 		    link: '/',
 		},
-
 		{
-		    label: 'SphericoMC',
-		    autogenerate: { directory: 'server/minecraft', collapsed: false, },
+		    label: 'Season 1',
+		    autogenerate: { directory: 'server/S1', collapsed: false, },
 		},
             ],
         }),
