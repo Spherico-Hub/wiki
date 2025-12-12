@@ -11,37 +11,31 @@ hero:
       iconPlacement: start
       variant: primary
     - text: Source
-      link: https://github.com/Zauraac/wiki
+      link: https://github.com/itsaerosphere/wiki
       icon: github
       iconPlacement: start
       variant: secondary
 ---
 import { CardGrid, LinkCard } from '@astrojs/starlight/components';
-import { ContainerSection } from 'starlight-theme-black/components';
 
-<ContainerSection>
 
 You'll find all sorts of information here on how to set up services and game servers. 
 
-## Game servers
+## Modded Minecraft *(Season 1)*
 <CardGrid>
-    <LinkCard title="Minecraft" href="/games/minecraft/getting-started" />
-    <LinkCard title="Stardew Valley" href="/games/stardew/getting-started" />
+    <LinkCard title="Setup" href="/server/S1/setup" />
+    <LinkCard title="Customization" href="/server/S1/customization" />
+   <LinkCard title="Rules" href="/server/S1/rules" />
+    <LinkCard title="Information" href="/server/S1/information" />
 </CardGrid>
- 
-## Services
+
+## Modded Minecraft *(Season 2)*
 <CardGrid>
-    <LinkCard title="VPN" href="/services/vpn/getting-started" />
-    <LinkCard title="3D Printing" href="/services/3dprinting" />
-    <LinkCard title="Wiki" href="/services/wiki" />
+    <LinkCard title="Coming soon!" />
 </CardGrid>
 
 ## External documentation
 <CardGrid>
-    <LinkCard title="Astro documentation" href="https://docs.astro.build./en/getting-started/"
-    />
-    <LinkCard title="Starlight documentation" href="https://starlight.astro.build/"
-    />
+    <LinkCard title="Astro documentation" href="https://docs.astro.build./en/getting-started/" />
+    <LinkCard title="Starlight documentation" href="https://starlight.astro.build/" />
 </CardGrid>
-
-</ContainerSection>
