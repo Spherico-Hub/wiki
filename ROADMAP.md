@@ -13,6 +13,9 @@
 - [ ] Consider changing the theming 
     - That's just a wee bit of CSS, but lazyness. 
 
+- [ ] Add a page to document the migration of config files
+    - [ ] Eventually the modpack should not replace config files when importing
+
 ## Assets 
 
 - [ ] Add permalinks for modpack file in `/src/contents/assets`
