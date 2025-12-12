@@ -17,7 +17,7 @@ export default defineConfig({
 		dark: './src/assets/logo-dark.svg',
 	    },
 	    favicon: './src/assets/logo-dark.svg',
-	    lastUpdated: true,
+	    lastUpdated: false,
 	    plugins: [
 		ion({
 		    footer: {
@@ -28,6 +28,7 @@ export default defineConfig({
             tableOfContents: true,
             social: [
                 { icon: 'github', label: 'Source', href: 'https://github.com/itsaerosphere/wiki' },
+		{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/dSjmeM5yAy', },
             ],
             sidebar: [
 		{
@@ -35,8 +36,28 @@ export default defineConfig({
 		    link: '/',
 		},
 		{
+		    label: 'Rules',
+		    link: '/server/rules',
+		},
+		{
 		    label: 'Season 1',
-		    autogenerate: { directory: 'server/S1', collapsed: false, },
+		    autogenerate: {
+			directory: 'server/S1', collapsed: false,
+		    },
+		},
+		{
+		    label: 'Season 2',
+		    autogenerate: {
+			directory: 'server/S2', collapsed: true,
+		    },
+		    badge: {
+			text: 'Coming soon!',
+			variant: 'caution',
+		    },
+		},
+		{
+		    label: 'World Map',
+		    link: 'https://map.spherico.one',
 		},
             ],
         }),
