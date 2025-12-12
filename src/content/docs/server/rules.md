@@ -14,7 +14,7 @@ The administration team reserves the right to use their disciplinary powers at t
 
 Your presence in this server implies the agreement to these guidelines, including all further changes. These changes might be done at any time without notice, making it your responsibility to stay updated.
 
-# General Guideliens
+# General Guidelines
 1. Be respectful to others and yourself
 2. No spamming or self-promotion
 3. Keep discussions appropriate
