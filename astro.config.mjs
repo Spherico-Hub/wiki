@@ -7,7 +7,13 @@ import { ion } from 'starlight-ion-theme';
 // https://astro.build/config for more information
 export default defineConfig({
     // basic site config
-    site: "https://spherico.one",
+
+    // For site location config
+    // site: "https://spherico.one", // Uncomment when DNS setup is done. 
+    // For Github.
+    site: 'https://spherico-hub.github.io/', // Comment when DNS is setup
+    base: '/wiki',
+
     trailingSlash: "ignore",
     integrations: [
         starlight({
