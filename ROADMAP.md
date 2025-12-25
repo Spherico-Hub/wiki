@@ -42,7 +42,7 @@
 
 - [ ] Test deployment on Github pages
     - View [issues](https://github.com/itsaerosphere/wiki/issues/1) on [failed deploy action](https://github.com/itsaerosphere/wiki/actions/runs/20173385184)
-    - [ ] Set DNS CNAME record to point from GHP to `spherico.one`
+    - [x] Set DNS CNAME record to point from GHP to `spherico.one`
     - Since I have no access to DNS nor repo settings, this is all you brother. 
 
 - [ ] Test deployment on local server
