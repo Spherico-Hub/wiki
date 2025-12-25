@@ -47,29 +47,25 @@ export default defineConfig({
 					link: '/minecraft/rules',
 				},
 				{
-					label: 'Setup',
-					link: '/minecraft/setup'
-				},
-				{
 					label: 'Season 4',
 					autogenerate: {
-					directory: 'minecraft/s4', 
-					collapsed: false,
+						directory: 's4', 
+						collapsed: false,
 					},
 					badge: {
-					text: 'Active',
-					variant: 'success',
+						text: 'Active',
+						variant: 'success',
 					},
 				},
 				{
 					label: 'Season 5',
 					autogenerate: {
-					directory: 'minecraft/s5', 
-					collapsed: true,
+						directory: 'minecraft/s5', 
+						collapsed: true,
 					},
 					badge: {
-					text: 'Coming soon!',
-					variant: 'caution',
+						text: 'Coming soon!',
+						variant: 'caution',
 					},
 				},
 				{
