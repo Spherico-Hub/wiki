@@ -1,0 +1,31 @@
+---
+title: Migration of configuration
+prev: 
+  link: /server/s4/setup
+  label: Return to setup
+next: false
+---
+import { Steps } from '@astrojs/starlight/components';
+import { Aside } from '@astrojs/starlight/components';
+
+If you already have a setup for your configuration, you can follow these steps to import them into a new instance. You may have to follow those steps whenever you update, or when you install a new season of the server. 
+
+<Aside type=caution title="Compatibility notice">
+Note that config files may not be compatible between different versions of the modpack.
+If such a file is incompatible, you can always remove it from the `.minecraft` and it will replace itself when launching the game.
+</Aside>
+
+<Steps>
+
+1. Locate the `.config.txt` file. 
+It will usually be located under the root file of your `.minecraft` folder. 
+To access it from the Prism Launcher, select your old instance and click on 'Folder' on the right sidebar. 
+
+2. Back up the `.config.txt` file in a safe location.
+The desktop will do fine. 
+
+3. Update/Install your instance of the game
+
+4. Paste the `.config.txt` file. 
+
+</Steps>
