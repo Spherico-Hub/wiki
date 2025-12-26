@@ -17,7 +17,7 @@ export default defineConfig({
     trailingSlash: "ignore",
     integrations: [
         starlight({
-            title: 'Spherico',
+            title: '',
 			logo: {
 				light: './src/assets/logo-light.svg',
 				dark: './src/assets/logo-dark.svg',
