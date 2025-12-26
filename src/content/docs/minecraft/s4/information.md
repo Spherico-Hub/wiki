@@ -8,40 +8,6 @@ sidebar:
 Minecraft version: 1.21.1\
 Mod loader & version: NeoForge 21.1.184\
 Java version: 21
-## Server Mods
-Better Villages\
-ChoiceTheorem's Overhauled Village\
-Chunky\
-DarkSmelting\
-FallingTree\
-Incendium\
-Let Me Despawn\
-Morning Glory\
-Neruina\
-No Enderman Grief\
-Noisium\
-Nullscape\
-RightClickHarvest + Supplementaries Compat\
-Tectonic\
-Terralith\
-Tidal Towns\
-Towns and Towers\
-Villager Names\
-Veinminer + Veinmeiner Enchantment\
-Roguelike Dungeons\
-Squaremap\
-Voice Chat Interaction\
-YUNG’s Better Bridges\
-YUNG’s Better Desert Temples\
-YUNG's Better Dungeons\
-YUNG’s Better End Island\
-YUNG's Better Jungle Temples\
-YUNG’s Better Mineshafts\
-YUNG's Better Nether Fortresses\
-YUNG’s Better Ocean Monuments\
-YUNG’s Better Strongholds\
-YUNG’s Better Witch Huts\
-YUNG’s Extras
 ## Modpack Mods
 ### 0-9
 [3D Skin Layers](https://modrinth.com/mod/3dskinlayers)
@@ -236,3 +202,43 @@ YUNG’s Extras
 ### X
 [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap)\
 [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map)
+
+## Server Datapacks
+No Creeper Grief\
+No Ghast Grief\
+Vanilla Refresh
+
+## Server Mods
+Better Villages\
+ChoiceTheorem's Overhauled Village\
+Chunky\
+DarkSmelting\
+FallingTree\
+Incendium\
+Let Me Despawn\
+Morning Glory\
+Neruina\
+No Enderman Grief\
+Noisium\
+Nullscape\
+RightClickHarvest + Supplementaries Compat\
+Tectonic\
+Terralith\
+Tidal Towns\
+Towns and Towers\
+Villager Names\
+Veinminer + Veinmeiner Enchantment\
+Roguelike Dungeons\
+Squaremap\
+Voice Chat Interaction\
+YUNG’s Better Bridges\
+YUNG’s Better Desert Temples\
+YUNG's Better Dungeons\
+YUNG’s Better End Island\
+YUNG's Better Jungle Temples\
+YUNG’s Better Mineshafts\
+YUNG's Better Nether Fortresses\
+YUNG’s Better Ocean Monuments\
+YUNG’s Better Strongholds\
+YUNG’s Better Witch Huts\
+YUNG’s Extras
