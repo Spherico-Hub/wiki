@@ -4,7 +4,7 @@ sidebar:
   order: 4
 prev: false
 next:
-  link: /server/s4/setup
+  link: /minecraft/s4/setup
   label: Get started!
 ---
 
