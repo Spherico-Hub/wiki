@@ -10,8 +10,7 @@ export default defineConfig({
     // basic site config
 
     // For site location config
-    site: "https://docs.spherico.one/", // Uncomment when DNS setup is done. 
-	base: "/wiki/",
+    site: "https://wiki.spherico.one/", // Uncomment when DNS setup is done. 
 
     trailingSlash: "ignore",
     integrations: [
@@ -49,7 +48,7 @@ export default defineConfig({
 			{
 			    label: 'Minecraft S4',
 			    autogenerate: {
-				    directory: 'minecraft/s4', 
+				    directory: '/minecraft/s4', 
 				    collapsed: false,
 			},
 			    badge: {
