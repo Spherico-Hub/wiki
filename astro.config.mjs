@@ -10,7 +10,7 @@ export default defineConfig({
     // basic site config
 
     // For site location config
-    site: "https://wiki.spherico.one", // Uncomment when DNS setup is done. 
+    site: "https://docs.spherico.one/wiki", // Uncomment when DNS setup is done. 
 
     trailingSlash: "ignore",
     integrations: [
