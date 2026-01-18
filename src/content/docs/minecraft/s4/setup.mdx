@@ -16,8 +16,9 @@ import { Tabs, TabItem } from '@astrojs/starlight/components';
 import { Icon } from '@astrojs/starlight/components';
 
 # Prerequisites
-We assume, from this point onwards, that you are aware that you are going to be playing modded Minecraft. You will need to have Java isntalled. 
-You can use the default Minecraft launcher, but Prism launcher is so, so, so much better. 
+We assume, from this point onwards, that you are aware that you are going to be playing modded Minecraft.
+You will need to have Java installed.
+**Prism Launcher is the only officially supported launcher.** 
 
 ## Installing Prism Launcher
 <Tabs>
@@ -41,37 +42,23 @@ You can use the default Minecraft launcher, but Prism launcher is so, so, so muc
 </Tabs>
 
 # Installing the modpack
-<Tabs>
-
-  <TabItem label="Manual method" icon="approve-check">
-  1. Download the modpack through [Google Drive](https://drive.google.com/file/d/1APp7RfnRAeoTToouxtOlmX89DDUpjeAh/view?usp=sharing).
-  2. Extract the contents of the modpack anywhere. 
-  3. In Prism Launcher, **create** a new instance, **import** a custom modpack and **select** the file you have downloaded.
-  </TabItem>
-
-  <TabItem label="Recommended method (Coming soon)">
-  In Prism Launcher, **create** a new instance, **import** a custom modpack and **input** the following URL: `if you're not seeing a URL here, fallback to the manual method.`
-  </TabItem>
-
-</Tabs>
+1. Download the file through [this link]().
+2. In Prism Launcher, **create** a new instance, **import** a custom modpack and **select** the file you have downloaded.
 
 <Aside type="note" icon="seti:config" title="Keeping your configuration">
 If you want to migrate your configuration, [follow this guide](/minecraft/s4/config_migration).
 </Aside>
 
 ## Updating the modpack
-1. Download the newest version of the Modpack and unzip it.
-2. On Prism Launcher, edit the instance where the modpack resides.
-3. Go to the "Modrinth" tab and click "Update from file"
-4. Find and select the .mrpack file from the package you downloaded.
+Starting with version 4.2.0, the modpack will automatically update itself upon launching the game.
 
 <Aside type="danger" icon="error" title="Configuration">
 Certain versions of Spherico-MC may reset your keybinds or settings to factory settings. 
 In order to carry over your configurations, [follow this guide](/minecraft/s4/config_migration).
 </Aside>
 
-<Aside type="caution" title="Legacy modpack versions (< 4.1.0)">
-  Modpack versions under 4.1.0 have breaking changes that prevent them from being updated to newer versions.
+<Aside type="caution" title="Legacy modpack versions (< 4.1.3)">
+  Older modpack versions contain breaking changes that prevent them from being updated to newer versions.
   Affected players must create a new instance and follow the **Installing the modpack** section.
 </Aside>
 
