@@ -4,11 +4,6 @@ sidebar:
   order: 99
   label: Technical info
 ---
-## Base Configuration
-Minecraft version: 1.21.1\
-Mod loader & version: NeoForge 21.1.184\
-Java version: 21
-## Modpack Mods
 ### 0-9
 [3D Skin Layers](https://modrinth.com/mod/3dskinlayers)
 ### A
