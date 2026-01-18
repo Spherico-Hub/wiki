@@ -43,29 +43,34 @@ You will need to have Java installed.
 
 # Installing the modpack
 1. Download the file through [this link](https://wiki.spherico.one/modpack/sphericomc-4.zip).
-2. In Prism Launcher, **create** a new instance, **import** a custom modpack and **select** the file you have downloaded.
-3. Launch the instance at least once and let it load to the main menu.
+2. In Prism Launcher, **create** a new instance, go to **import** and **select** the file you have downloaded.
+3. Launch the instance **at least once** and let it load to the main menu.
 
 <Aside type="note" icon="seti:config" title="Keeping your configuration">
 If you want to migrate your configuration, [follow this guide](/minecraft/s4/config_migration).
 </Aside>
 
 ## Updating the modpack
-Starting with version 4.2.0, the modpack will automatically update itself upon launching the game.
+<Tabs>
+  <TabItem label="4.2.x and over">
+    The modpack will automatically update itself upon launching the game.
+    You do not have to do anything.
+  </TabItem>
+  <TabItem label="4.1.x and lower">
+    1. Download the latest version of [packwiz-installer-bootstrap](https://github.com/packwiz/packwiz-installer-bootstrap/releases) and place it in the `.minecraft` folder.
+    2. Go to **Edit Instance** -> **Settings** -> **Custom commands**, then check the **Custom Commands** box and paste the following command into the pre-launch command field:
+    `"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://wiki.spherico.one/modpack/pack.toml`
+  </TabItem>
+</Tabs>
 
 <Aside type="danger" icon="error" title="Configuration">
-Certain versions of Spherico-MC may reset your keybinds or settings to factory settings. 
+Certain versions of SphericoMC may reset your keybinds or settings to the default values.
 In order to carry over your configurations, [follow this guide](/minecraft/s4/config_migration).
 </Aside>
 
-<Aside type="caution" title="Legacy modpack versions (< 4.1.3)">
-  Older modpack versions contain breaking changes that prevent them from being updated to newer versions.
-  Affected players must create a new instance and follow the **Installing the modpack** section.
-</Aside>
-
 # Connect to the server
-The server should be conveniently be in your multiplayer menu already! 
-Otherwise just enter `mc.spherico.one` in the new server window. 
+The server should be conveniently be in your multiplayer menu already!
+Otherwise just enter `mc.spherico.one` in the new server window.
 
 <Aside type="danger" icon="error" title="Whitelist">
 Make sure you have given your Minecraft username to an administrator, otherwise the whitelist will prevent you from joining the server.
